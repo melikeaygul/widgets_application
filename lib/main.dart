@@ -28,11 +28,11 @@ class MainApp extends StatelessWidget {
               child: Image.network(
                 "https://picsum.photos/800/600",
                 fit: BoxFit.cover,
-                width: double.infinity,
-                height: double.infinity,
+                // width: double.infinity,
+                // height: double.infinity,
               ),
             ),
-            const Expanded(
+            Expanded(
               flex: 2,
               child: Center(
                 child: Text(
